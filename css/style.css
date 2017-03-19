@@ -1,0 +1,45 @@
+body {
+	background-color: #000;
+	color: #fff;
+	font-family: 'Cinzel', serif;
+}
+
+#name {
+	padding: 70px;
+	font-size: 36px;
+}
+
+#square {
+	margin: 25px auto 0;
+	border: 2px solid #fff;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+}
+
+#message {
+	font-size: 30px;
+}
+
+#sign_1, #sign_2, #sign_3, #sign_4, #sign_5, #sign_6, #sign_7, #sign_8, #sign_9 {
+	border: 1px solid #fff;
+	text-align: center;
+	height: 100px;
+	font-size: 70px;
+	font-family: 'Arimo', sans-serif;
+	cursor: pointer;
+}
+
+#x, #o {
+	cursor: pointer;
+	font-family: 'Arimo', sans-serif;
+	font-size: 40px;
+}
+
+#x {
+	color: #17e482;
+}
+
+#o {
+	color: #e0c225;
+}
